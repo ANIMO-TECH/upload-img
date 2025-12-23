@@ -65,7 +65,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.platform.os }}-bundle
+          name: ${{ matrix.platform.target }}-bundle
           path: |
-            src-tauri/target/*/bundle/
-            !src-tauri/target/*/bundle/*/dSYM/
+            src-tauri/target/${{ matrix.platform.target }}/bundle/
+            !src-tauri/target/${{ matrix.platform.target }}/bundle/*/dSYM/
