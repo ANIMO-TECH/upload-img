@@ -67,5 +67,5 @@ jobs:
         with:
           name: ${{ matrix.platform.target }}-bundle
           path: |
-            src-tauri/target/${{ matrix.platform.target }}/bundle/
-            !src-tauri/target/${{ matrix.platform.target }}/bundle/*/dSYM/
+            src-tauri/target/release/bundle/
+            !src-tauri/target/release/bundle/*/dSYM/
