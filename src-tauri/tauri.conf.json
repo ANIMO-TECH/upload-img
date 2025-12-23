@@ -32,7 +32,10 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "publisher": "ImageUploadTool",
+    "shortDescription": "A simple image upload tool",
+    "longDescription": "ImageUploadTool is a cross-platform desktop application for uploading images to various services."
   },
   "plugins": {
     "shell": {
