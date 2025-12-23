@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 移除静态导出，开发模式不需要
-  // output: 'export',
+  // 启用静态导出，输出到 out 目录
+  output: 'export',
   images: {
     unoptimized: true,
   },
