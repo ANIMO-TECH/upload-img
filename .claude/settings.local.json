@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__zai-mcp-server__extract_text_from_screenshot",
+      "mcp__web-search-prime__webSearchPrime"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
